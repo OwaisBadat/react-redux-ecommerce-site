@@ -1,0 +1,40 @@
+.cartbg{
+  background-color: #333333;
+
+}
+
+.tb{
+  background: white;
+  color: black;
+  margin: auto;
+}
+
+.bestTitle{
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.cartStyle{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.paymentStyle{
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: -webkit-center;
+}
+
+.paymentbtn{
+  color: white;
+  background-color: #e91e63;
+}
+
+.tableStyle{
+  text-align: -webkit-center;
+}

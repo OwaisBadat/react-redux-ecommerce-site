@@ -3,7 +3,8 @@
 }
 body {
   color: #777;
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: 'Gentium Book Basic', serif;
+
 }
 .product-grid {
   width: 20%;
@@ -106,6 +107,7 @@ body {
   font-size: 0.875em;
   margin-top: 0.4375rem;
   margin-bottom: 0;
+  color: black;
 }
 .product-grid__btn {
   display: inline-block;

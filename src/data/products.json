@@ -2,68 +2,68 @@
   "products": [
     {
       "id": 1,
-      "name": "I am Groot",
-      "description": "This stuffed Groot makes an excellent toy for both youngsters due to it's soft nature and adorable design, to fans and collectors of 'The Guardians of the Galaxy' franchise.",
+      "name": "Funko POP Rides: Game of Thrones - Dragon & Daenerys ",
+      "description": "From Game of Thrones, Daenerys riding Drogon, as a stylized POP Rides vinyl from Funko!",
       "keywords": [
         "stuffed", "plush", "groot", "guardians of the galaxy"
       ],
-      "image": "1-groot.jpg",
+      "image": "daenerys.jpg",
       "age": [
-        "0", "+"
+        "CHOKING HAZARD -- Small parts. Not for children under 3 yrs."
       ],
-      "price": 19.99
+      "price": 20.11
     },
     {
       "id": 2,
-      "name": "Buzz Lightyear Action Doll",
-      "description": "Buzz Lightyear is a favorite of youngsters. He has a ray-gun, wings that can be retracted or extended on the push of a button, and a grin that could make any alien get a chill up their spine - should they have one.",
+      "name": "Funko POP! Video Games: Crash Bandicoot - Crash Bandicoot",
+      "description": "From Crash Bandicoot, Crash Bandicoot, as a stylized POP vinyl from Funko!",
       "keywords": [
         "action figure", "toy story", "posable", "requires batteries"
       ],
-      "image": "2-buzz.jpg",
+      "image": "crash.jpg",
       "age": [
-        "3", "10"
+        "CHOKING HAZARD -- Small parts. Not for children under 3 yrs."
       ],
-      "price": 39.50
+      "price": 12.52
     },
     {
       "id": 3,
-      "name": "Minion Dave",
-      "description": "Dave is a two-eyed and medium-sized minion with nice combed hair. This plush version of him is extremely huggable and makes a great best friend for your young child. He is stitched well and has no small parts to choke on.",
+      "name": "Funko Pop Rocks: Rap Music - Notorious B.I.G. with Crown",
+      "description": "From Music, Notorious B.I.G. with Crown, as a stylized POP vinyl from Funko!",
       "keywords": [
         "stuffed", "plush", "minions", "Despicable Me"
       ],
-      "image": "3-minion-dave.jpg",
+      "image": "BIG.jpg",
       "age": [
-        "0", "10"
+        "CHOKING HAZARD -- Small parts. Not for children under 3 yrs."
       ],
-      "price": 12.99
+      "price": 16.58
     },
     {
       "id": 4,
-      "name": "Minion Kevin",
-      "description": "Kevin is a tall, two-eyed minion with sprout cut hair and is usually seen wearing his golf apparel. This plush version of him is extremely huggable and makes a great best friend for your young child. He is stitched well and has no small parts to choke on.",
+      "name": "Funko POP Movies: Guardians of the Galaxy 2 Toddler Groot",
+      "description": "From Guardians of the Galaxy 2, Toddler Groot, as a stylized POP vinyl from Funko!",
       "keywords": [
         "stuffed", "plush", "minions", "Despicable Me"
       ],
-      "image": "4-minion-kevin.jpg",
+      "image": "groot.jpg",
       "age": [
-        "0", "10"
+        "CHOKING HAZARD -- Small parts. Not for children under 3 yrs."
       ],
-      "price": 12.99
+      "price": 12.58
     },
     {
       "id": 5,
-      "name": "Minion Bob",
-      "description": "Bob is a short and bald minion with multi-colored eyes (green and brown). He often carries around a teddy bear that he owns called Tim, which is brown with yellow buttoned eyes. This plush version of him is extremely huggable and makes a great best friend for your young child. He is stitched well and has no small parts to choke on.",
+      "name": "Funko POP! Marvel: Avengers Infinity War - Thanos",
+      "description": "From Avengers Infinity War, Thanos, as a stylized POP vinyl from Funko!",
       "keywords": [
         "stuffed", "plush", "minions", "Despicable Me"
       ],
-      "image": "5-minion-bob.jpg",
+      "image": "thanos.jpg",
       "age": [
-        "0", "10"
+        "CHOKING HAZARD -- Small parts. Not for children under 3 yrs."
       ],
-      "price": 12.99
+      "price": 12.58
     }
   ]
 }

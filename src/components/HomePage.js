@@ -71,13 +71,14 @@ export default function HomePage(props){
           <div>
             <article className="slide">
               <div className="slide-show">
-                <div className="slide-item"> <img className="slide-img" src="http://androidwallpape.rs/content/02-wallpapers/78-street/wallpaper-2594020.jpg" /></div>
-                <div className="slide-item"> <img className="slide-img" src="http://www.uniwallpaper.com/static/images/6890733-mountain-peaks-wallpaper-hd_PZTQDff.jpg" /></div>
-                <div className="slide-item"> <img className="slide-img" src="http://www.uniwallpaper.com/static/images/eWtfMME_jJm8t1k.png" /></div>
+                <div className="slide-item"> <img className="slide-img" src="http://www.kiwithebeauty.com/wp-content/uploads/2018/02/black-panther-funko-pop-collection-920x350.png"/>
+                </div>
+                <div className="slide-item"> <img className="slide-img" src="https://png2.kisspng.com/sh/4b2ccc7ff5b7737277c37dda3dd7abdc/L0KzQYm3VsIzN5NvkZH0aYP2gLBuTfZ2dpx0RdDvbD3kc8XwjB4ufJDARdhyZ4X1dcS0kCBweqV4Rd9ubXB1cbPwjPliNZVqgdH3LYPkfrXskwMuPZM3fKtuMkjnc4iBgcgvPWk7UKQEMkK0RYOCV8E3Omc5UaI8MT7zfri=/kisspng-funko-nfl-action-toy-figures-sports-memorabilia-deion-sanders-5b2d9e28dc78a8.5868292215297162649031.png" /></div>
+                <div className="slide-item"> <img className="slide-img" src="https://i.ytimg.com/vi/PCPlT7otDMA/maxresdefault.jpg" /></div>
               </div>
               <div className="slide-text">
                 <div className="half a-center">
-                  <h2 className="alide-title">Just Watch and Laugh</h2>
+                  <h2 className="alide-title">Show Yo Funk</h2>
                 </div>
                 <div className="half a-down"><a className="btn over-transparent" href="#BestSellers">Best Sellers</a></div>
                 <ul className="slide-indicator">
@@ -89,7 +90,7 @@ export default function HomePage(props){
             </article>
           </div>
           <div id="BestSellers">
-            <h1>Best Sellers</h1>
+            <h1 className="bestTitle">Best Sellers</h1>
               <ProductListing products={data.products} />
           </div>
         </div>

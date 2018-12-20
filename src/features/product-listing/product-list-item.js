@@ -1,9 +1,13 @@
 import React from 'react'
 
 import ProductListingCSS from './ProductListingItem.css'
+import AddBtn from './add-btn'
+import RemoveBtn from './remove-btn'
+import CartPage from '../../components/CartPage.js'
+import { NavLink } from 'react-router-dom'
 
 export default function ProductListItem(props){
-  const thisItemInCart = props.cart.filter(item => item.id == props.product.id)[0]
+
   return (
 
       <div className="product-grid product-grid--flexbox">
@@ -26,8 +30,27 @@ export default function ProductListItem(props){
               <div className="product-grid__extend-wrapper">
                 <div className="product-grid__extend">
                   <p className="product-grid__description">{ props.product.description }</p>
-                  <span className="product-grid__btn product-grid__add-to-cart" onClick={() => props.addToCart(props.product)} ><i className="fa fa-cart-arrow-down"/>Add to cart ({ (thisItemInCart && thisItemInCart.quantity) || 0})</span>
-                  <span className="product-grid__btn product-grid__view"><i className="fa fa-eye" /> View more</span>
+                  <div>
+                  <AddBtn
+                    cartItem={props.cartItem}
+                    product={props.product}
+                    addToCart={props.addToCart}
+                  />
+
+                  {
+                    props.cartItem
+                      ? <RemoveBtn
+                        cartItem={props.cartItem}
+                        product={props.product}
+                        removeFromCart={props.removeFromCart}
+                      />
+                      : null
+                  }
+                  </div>
+                  <div>
+                    <NavLink to='/cart'><span className="product-grid__btn product-grid__add-to-cart"><i className="fa fa-cart-arrow-down"/>MyCart</span></NavLink>
+                  </div>
+
                 </div>
               </div>
             </div>

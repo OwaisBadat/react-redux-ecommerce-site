@@ -1,10 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:700);
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Gentium+Book+Basic');
 
 html, body {
   height:100%;
   padding:0;
   margin:0;
-  font-family: Raleway,sans-serif;
+  font-family: 'Gentium Book Basic', serif;
   color:#FFF;
 }
 h1 {
@@ -15,6 +16,7 @@ h1 {
   letter-spacing: -4px;
   font-size:100px;
   font-weight:700;
+  font-family: 'Bungee Shade', cursive;
   text-transform:uppercase;
   text-shadow:1px 1px 1px rgba(0,0,0,0.5);
 }
@@ -81,6 +83,7 @@ nav ul {
 }
 nav ul li {
   display:inline-block;
+  font-family: 'Gentium Book Basic', serif;
 }
 nav ul a {
   height:65px;
