@@ -1,7 +1,8 @@
 import React from 'react'
 
 import CartCSS from '../../components/cart.css'
-
+import {Elements, StripeProvider} from 'react-stripe-elements';
+import TakeMoney from '../checkout/checkout2';
 import { connect } from 'react-redux'
 
 function sort(items){
@@ -9,13 +10,14 @@ function sort(items){
 }
 
 function Cart(props) {
-  return <table className="tb">
+  return <table className="tb" border="20">
       <thead>
         <tr>
           <th></th>
           <th>Item</th>
           <th>Quantity</th>
-          <th></th>
+          <th>Price/Item</th>
+          <th>Total</th>
         </tr>
       </thead>
 
@@ -28,6 +30,8 @@ function Cart(props) {
               /></th>
             <td>{ item.name} </td>
             <td>{ item.quantity} </td>
+            <td>${item.price}</td>
+            <td>${item.price*item.quantity}</td>
             <td>
               <button
               onClick={() => props.addToCart(item)}>
@@ -42,9 +46,19 @@ function Cart(props) {
               onClick={() => props.removeAll(item)}>
               Remove All from Cart </button>
             </td>
-            </tr> )
+            </tr>)
         }
       </tbody>
+      <tfoot>
+    <tr>
+      <td colspan="2">Total Quantity</td>
+      <td></td>
+      <td>Order Total</td>
+      <td colspan="">$</td>
+
+
+    </tr>
+  </tfoot>
     </table>
 
 }

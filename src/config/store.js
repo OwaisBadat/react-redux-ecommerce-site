@@ -2,15 +2,41 @@ import { createStore, combineReducers } from 'redux'
 
 import cartReducer from '../features/cart/reducer.js'
 
-const rootReducer = combineReducers ({
+const saveToLocalStorage = (state) => {
+   try{
+     const serializedState = JSON.stringify(state)
+     localStorage.setItem('state', serializedState)
+   } catch(e){
+     console.log(e)
+   }
+ }
 
-  cart: cartReducer
+const loadFromLocalStorage = () => {
+   try{
+       const serializedState = localStorage.getItem('state')
+       if (serializedState === null) return undefined
+       return JSON.parse(serializedState)
+   }   catch(e){
+       console.log(e)
+       return undefined
+   }
+}
+
+const rootReducer = combineReducers({
+
+   cart: cartReducer
 
 })
 
+
+const persistedState = loadFromLocalStorage()
+
 const store = createStore(
-  rootReducer,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+   rootReducer,
+   persistedState,
+   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 )
 
-export default store;
+store.subscribe(() => saveToLocalStorage(store.getState()))
+
+export default store

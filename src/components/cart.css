@@ -22,6 +22,9 @@
 
 }
 
+.paymentbtnstripe{
+  text-align: -webkit-center;
+}
 .paymentStyle{
   width: 25%;
   margin-left: auto;

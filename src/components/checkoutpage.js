@@ -2,7 +2,7 @@
 
 import React, {Component} from 'react';
 import {Elements, StripeProvider} from 'react-stripe-elements';
-import CheckoutForm from '../features/checkout/checkout';
+import CheckoutForm from '../features/checkout/checkout2';
 
 class App extends Component {
   render() {
